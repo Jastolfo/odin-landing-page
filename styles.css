@@ -59,3 +59,54 @@ button {
   padding: 8px;
   font-weight: 700;
 }
+
+.content-section {
+  /* display: flex;
+  flex-flow: column wrap;
+  align-items: center; */
+  text-align: center;
+}
+
+.content-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.content-section div {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.content-box {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.content-box img {
+  width: 200px;
+  height: 200px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.quote-section div {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.quote-section div p {
+  text-align: right;
+}
+
+.quote-section div #quote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+  text-align: center;
+}
