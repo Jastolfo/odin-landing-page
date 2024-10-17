@@ -1,0 +1,61 @@
+body {
+  font-family: Roboto;
+}
+
+header, footer, .hero-section {
+  background-color: #1f2937;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px 32px;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+footer {
+  text-align: center;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding-bottom: 32px;
+}
+
+.hero-section img {
+  max-width: 500px;
+}
+
+.hero-section div {
+  max-width: 500px;
+}
+
+.hero-section div h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+nav p, .hero-section div p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+#logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px;
+  font-weight: 700;
+}
