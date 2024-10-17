@@ -58,6 +58,14 @@ button {
   color: #f9faf8;
   padding: 8px;
   font-weight: 700;
+  border-radius: 8px;
+  border-style: solid;
+  
+}
+
+.hero-section div button {
+  border-color: #02162a;
+  flex-shrink: 0;
 }
 
 .content-section {
@@ -109,4 +117,39 @@ button {
   font-style: italic;
   color: #1f2937;
   text-align: center;
+}
+
+.sign-up-section {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+
+.sign-up-section div {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px;
+  border-radius: 8px;
+}
+
+.sign-up-section div button {
+  flex-shrink: 0;
+  border-color: white;
+}
+
+.sign-up-section div div {
+  display: flex;
+  flex-flow: column wrap;
+  color: #f9faf8;
+}
+
+.sign-up-section div div h2 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+footer {
+  color: #f9faf8;;
 }
